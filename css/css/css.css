@@ -42,10 +42,11 @@ body {
   font-family: var(--font-family);
 }
 
-section {
-  /* max-width: 1100px;
-  margin: auto; */
-}
+/*section {
+   max-width: 1100px;
+  margin: auto;
+ } */
+
 
 /* Barra de navegación */
 nav {
