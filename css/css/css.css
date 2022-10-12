@@ -63,12 +63,15 @@ nav {
 
 nav h1 {
   color: var(--color-primario);
+  display: flex;
+ justify-content: space-evenly;
+  
 }
 
 nav a {
   color: var(--color-primario);
   transition: var(--transition);
-  font-size: 19px;
+  font-size: 22px;
 }
 nav a:hover {
   color: var(--color-secundario);
@@ -77,7 +80,8 @@ nav a:hover {
 
 nav ul {
   display: flex;
-  gap: 1.9rem;
+  gap: 2rem;
+justify-content: space-evenly;
 }
 
 nav ul li {
@@ -93,8 +97,8 @@ nav ul li {
 }
 /* Fin de Barra de navegación */
 
-/* Sección hero */
-.hero {
+/* Seccion inicio */
+.inicio {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -104,7 +108,7 @@ nav ul li {
   background-color: black;
 }
 
-.hero img {
+.inicio img {
   width: 98%;
 }
 
@@ -127,7 +131,7 @@ color: white;
   padding: 0.3rem 0;
   color: white;
 }
-/* Sección hero (fin) */
+/* Sección inicio (fin) */
 
 /* Servicios */
 .servicios {
