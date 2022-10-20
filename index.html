@@ -1,76 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="imag/favicon.ico">
-    <link rel="stylesheet" href="css/css/css.css">
-    <title>3D</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="imag/favicon.ico">
+  <title>3D</title>
+  <link rel="stylesheet" href="css/inicio.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/redesywhatsapp.css">
+  <link rel="stylesheet" href="css/footer.css">
+
+  <script src="https://kit.fontawesome.com/450a242195.js" crossorigin="anonymous"></script>
+
 </head>
-<body class="body">
-      <nav>
-        <h1>
-          <img src="imag/3d.png" alt="Logo" width="48%"> 
-        </h1>
-        <ul class="navegacion">
-        <li><a class="nav-link" href="index.html"> Inicio </a></li>
-        <li><a class="nav-link" href="servicios.html"> Servicios </a></li>
-        <li><a class="nav-link" href="tecnologia.html">Tecnología</a></li>
-        <li><a class="nav-link" href="productos.html">Productos</a></li>
-        <li><a class="nav-link" href="novedades.html">Novedades</a></li>
-        <li><a class="nav-link" href="contact.html">Contactanos</a></li>
-      </ul>
-        </ul>
-        <button class="menu-hamburguesa" id="menu-hamburguesa">
-          <ion-icon class="barras" name="menu-outline"></ion-icon>
-        </button>
-      </nav>
 
-<!-- Seccion inicio-->
-<section class="inicio" id="about">
-  <img
-    src="imag/Tout-ce-que-vous-devez-savoir-sur-les-imprimantes-3D.webp"
-    alt="imagen"
-    loading="lazy"
-    class="inicio-img"
-  />
-  <div class="bio animate__animated animate__shakeX">
-    <h2 class="bio-title">Impresiones 3D</h2>
-    <p class="bio-text">
-      Servicio de impresión 3D, modelado, diseño de piezas a medida y servicio técnico.
-    </p>
-    <p>
-     Hacemos envíos a todo el país, consúltenos.
-    </p>
-  </div>
-</section>
+<body id="body">
 
-<!-- Redes sociales -->
-<div class="socials">
-  <a href="#" target="_blank"
-    ><img 
-    src="https://cdn-icons-png.flaticon.com/512/3670/3670211.png " 
-    class="socicon"
-  /></a>
-  <a href="#" target="_blank"
-    ><img 
-    src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png "
-    alt="Instagram"
-    class="socicon"
-  /></a>
-  <a href="#" target="_blank"
-    ><img
-     src="https://cdn-icons-png.flaticon.com/512/1051/1051258.png"
-     alt="Facebook" 
-     class="socicon">
-    </a>
+  <header>
+    <div class="icon__menu">
+      <i class="fa-sharp fa-solid fa-bars" id="btn_open"></i>
+    </div>
+  </header>
+
+  <div class="menu__side" id="menu_side">
+
+    <div class="options__menu">
+
+      <a href="index.html" class="selected">
+        <div class="option">
+          <i class="fas fa-home" title="Inicio"></i>
+          <h4>Inicio</h4>
+        </div>
+      </a>
+
+      <a href="servicios.html">
+        <div class="option">
+          <i class="fa-solid fa-list" title="Servicos"></i>
+          <h4>Servicos</h4>
+        </div>
+      </a>
+
+      <a href="tecnologia.html">
+        <div class="option">
+          <i class="fas fa-gear" title="Tecnología"></i>
+          <h4>Tecnología</h4>
+        </div>
+      </a>
+
+      <a href="productos.html">
+        <div class="option">
+          <i class="fa-solid fa-cart-shopping" title="Productos"></i>
+          <h4>Productos</h4>
+        </div>
+      </a>
+
+      <a href="novedades.html">
+        <div class="option">
+          <i class="fa-regular fa-newspaper" title="Novedades"></i>
+          <h4>Novedades</h4>
+        </div>
+      </a>
+
+      <a href="contacto.html">
+        <div class="option">
+          <i class="fa-solid fa-envelope" title="Contacto"></i>
+          <h4>Contáctanos</h4>
+        </div>
+      </a>
+
+      <a href="ubicacion.html">
+        <div class="option">
+          <i class="fa-solid fa-earth-americas" title="Ubicación"></i>
+          <h4>Ubicación</h4>
+        </div>
+      </a>
+
     </div>
 
-<!-- Footer section -->
-<footer>
-  <p class="copy">&copy; Copyright 2022</p>
-  </p>
-</footer> 
+  </div>
+
+
+  <!-- Seccion inicio-->
+  <section class="inicio">
+    <div class="imagen-inicio">
+    <img src="imag/Inicio.png"/>
+    </div>
+    <div class="bio">
+      <img src="imag/3d.png" alt="Logo">
+      <div class="titulo">
+      <h2>Impresiones 3D</h2>
+      <p>Bienvenidos. </p>
+      <p>Somos un equipo dedicado a el servicio
+         técnico, impresiones, modelado, diseño de piezas en 3D.
+      </p>
+    </div>
+    </div>
+  </section>
+
+  <!-- Redes sociales -->
+  <section class="redes">
+    <div class="redes">
+      <a href="https://twitter.com/" target="twitter">
+        <img src="https://cdn-icons-png.flaticon.com/512/3670/3670211.png " alt="Twitter" class="redes-icon" />
+      </a>
+      <a href="https://www.instagram.com/" target="Instagram">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png " alt="Instagram" class="redes-icon" />
+      </a>
+      <a href="https://es-la.facebook.com/" target="Facebook">
+        <img src="https://cdn-icons-png.flaticon.com/512/1051/1051258.png" alt="Facebook" class="redes-icon">
+      </a>
+    </div>
+  </section>
+
+  <!--Whatsapp-->
+  <section class="whatsapp">
+    <div class="whatsapp">
+      <a href="https://web.whatsapp.com/" target="whatsapp">
+        <img src="https://cdn-icons-png.flaticon.com/512/3670/3670051.png" alt="Whatsapp" class="whatsappicon" />
+      </a>
+  </section>
+  <!-- Footer section -->
+  <footer>
+    <div class="footer">
+      <p class="copy">&copy; Copyright 2022</p>
+      </p>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
 </body>
+
 </html>

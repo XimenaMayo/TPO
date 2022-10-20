@@ -7,10 +7,10 @@
     <link rel="icon" href="imag/favicon.ico">
     <title>3D</title>
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="css/servicios.css">
+    <link rel="stylesheet" href="css/contacto.css">
     <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/redesywhatsapp.css">
-    <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/redesywhatsapp.css">
+  <link rel="stylesheet" href="css/footer.css">
 
     <script src="https://kit.fontawesome.com/450a242195.js" crossorigin="anonymous"></script>
     
@@ -24,7 +24,7 @@
       </header>
   
       <div class="menu__side" id="menu_side">
-  
+
           <div class="options__menu">	
   
               <a href="index.html" class="selected">
@@ -79,41 +79,67 @@
           </div>
   
       </div>
+    
+    <!-- Contacto-->
+    <center>
+    <Section class="contacto">
+      <div class="titulo">
+      <h2>Contáctanos</h2>
+      <div class="contacto-info">
+      <p>Realizamos productos presonalizados, contáctenos mediante el formulario.</p>
+      </div>
+      </div>
 
-<!-- Servicos -->
-<center>
-<section class="servicios">
-  <div class="titulo">
-    <div class="servicios-tope">
-      <h2>Servicios</h2>
-      <p> La impresión 3D es utilizada para la fabricación de prototipos y para obtener modelos complejos de referencia, productos personalizados o piezas de decoración.
-      Basado en la tecnología de fabricación por adición donde se crean objetos por la superposición de capas de material fundido para crear un objeto 3D.
-  </p>
-  </div>
-  <div class="servicos-aplicaciones">
-    <div class="aplicacion">
-      <h3>Aplicaciones en Arquitectura</h3>
-      <p>Ofrecemos nuestros servicios para la creación de modelos de arquitectura a escala agilizando el tiempo y la mano de obra de estos para visualizar trabajos personales o empresariales de alta calidad.</p>
-    </div>
-    <div class="aplicacion">
-      <h3>Aplicaciones Educativas</h3>
-      <p> Creamos modelos que permiten el desarrollo de estudiantes de distintas diciplinas educativas como química medicina, ingeniería, arquitectura, etc. También poseemos modelos de juegos didácticos que permitan el desarrollo
-        de niños. </p>
-    </div>
-    <div class="aplicacion">
-      <h3>Aplicaciones Personalizadas</h3>
-      <p> Resolvemos necesidad que tengas dese crear piezas mecánicas como engranajes, accesorios de iluminación, pantallas de lámparas, soportes, accesorios para tu casa, figuras decorativas, impresiones divertidas, jugetes, souvenirs y mucho más.
-      </p>
-    </div>
-  </div>
-  <h4>
-    Mirá nuestros productos disponibles haciendo click <a href="productos.html">aquí</a>.
-  </h4>
-  </div>
-</section>
-</center>
+      <div class="contacto-form-container">
+        <div class="contacto-form">
+          <form action="https://formspree.io/f/xyylnggw" method="POST">
+            <div class="form-control">
+              <label for="name">Nombre</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Escriba su nombre completo"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Escriba su email de contacto"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Mensaje</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="7"
+                placeholder="Escriba su consulta"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Enviar"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+     </center>
 
-<!-- Redes sociales -->
+    <!-- Redes sociales -->
 <section class="redes">
   <div class="redes">
    <a href="https://twitter.com/" target="twitter">
@@ -145,4 +171,3 @@
  <script src="js/script.js"></script>
  </body>
  </html>
-

@@ -1,0 +1,44 @@
+/*Tecnología*/
+.tecnología {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+
+  .impresora a {
+    font-size: 15px;
+  }
+   
+  .impresora img {
+    padding: 20px;
+    width: 50%;
+    border:20px solid rgb(124, 124, 255);
+  }
+  
+  .tecnologia-impresoras{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.impresora { 
+  flex-grow: 5;
+  flex-shrink: 5;
+  flex-basis: 0;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+  row-gap: 10px;
+}
+.impresora h3{
+  text-align: center;
+  font-size: 30px;
+  background-color: rgb(124, 124, 255);
+}
+
+.impresora p{
+  text-align: left;
+  font-size: 15px;
+}
+/*Fin tecnología*/

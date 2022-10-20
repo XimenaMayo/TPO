@@ -1,0 +1,12 @@
+/*Novedades*/
+.novedades {
+    margin: auto;
+    margin-top: 20px;
+    }
+
+  .novedades p {
+    margin: 40px;
+    background-color: rgb(185, 185, 255);
+    font-size: 25px;
+  }
+    /*Fin novedades*/

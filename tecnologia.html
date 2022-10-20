@@ -1,68 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="imag/favicon.ico">
-  <link rel="stylesheet" href="css/css/css.css">
-  <title>3D</title>
-</head>
-<body>
-      <nav>
-        <h1>
-          <img src="imag/3d.png" alt="Logo" width="30%"> 
-        </h1>
-        <ul class="navegacion">
-          <li><a class="nav-link" href="index.html">Inicio </a></li>
-          <li><a class="nav-link" href="servicios.html"> Servicios </a></li>
-          <li><a class="nav-link" href="tecnologia.html">Tecnología</a></li>
-          <li><a class="nav-link" href="productos.html">Productos</a></li>
-          <li><a class="nav-link" href="novedades.html">Novedades</a></li>
-          <li><a class="nav-link" href="contact.html">Contactanos</a></li>
-        </ul>
-    </ul>
-    </ul>
-    <button class="menu-hamburguesa" id="menu-hamburguesa">
-      <ion-icon class="barras" name="menu-outline"></ion-icon>
-    </button>
-  </nav>
-</header>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imag/favicon.ico">
+    <title>3D</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/tecnologia.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/redesywhatsapp.css">
+    <link rel="stylesheet" href="css/footer.css">
 
+    <script src="https://kit.fontawesome.com/450a242195.js" crossorigin="anonymous"></script>
+    
+  </head>
+  <body>
+      
+      <header>
+          <div class="icon__menu">
+              <i class="fa-sharp fa-solid fa-bars" id="btn_open"></i>
+          </div>
+      </header>
+  
+      <div class="menu__side" id="menu_side">
+  
+          <div class="options__menu">	
+  
+              <a href="index.html" class="selected">
+                  <div class="option">
+                      <i class="fas fa-home" title="Inicio"></i>
+                      <h4>Inicio</h4>
+                  </div>
+              </a>
+  
+              <a href="servicios.html">
+                  <div class="option">
+                      <i class="fa-solid fa-list" title="Servicos"></i>
+                      <h4>Servicos</h4>
+                  </div>
+              </a>
+              
+              <a href="tecnologia.html">
+                  <div class="option">
+                      <i class="fas fa-gear" title="Tecnología"></i>
+                      <h4>Tecnología</h4>
+                  </div>
+              </a>
+  
+              <a href="productos.html">
+                  <div class="option">
+                      <i class="fa-solid fa-cart-shopping" title="Productos"></i>
+                      <h4>Productos</h4>
+                  </div>
+              </a>
+  
+              <a href="novedades.html">
+                <div class="option">
+                    <i class="fa-regular fa-newspaper" title="Novedades"></i>
+                    <h4>Novedades</h4>
+                </div>
+            </a>
+  
+              <a href="contacto.html">
+                  <div class="option">
+                    <i class="fa-solid fa-envelope" title="Contacto"></i>
+                      <h4>Contáctanos</h4>
+                  </div>
+              </a>
+  
+              <a href="ubicacion.html">
+                  <div class="option">
+                    <i class="fa-solid fa-earth-americas" title="Ubicación"></i>
+                      <h4>Ubicación</h4>
+                  </div>
+              </a>
+  
+          </div>
+  
+      </div>
 <!-- Tecnología -->
 
 <body>
-  <section class="tecnología" id="tecnología">
+  <section class="tecnología">
+    <div class="titulo">
     <h2>Tecnología</h2>
-    <div>
-      <div>
+    <div class="tecnologia-impresoras">
+      <div class="impresora">
         <h3>Impresora Cartesiana</h3>
-        <img src="imag/cartesiana.png" alt="cartesiana" loading="lazy" class="tecnología-img"/>
+        <img src="imag/cartesiana.png" alt="cartesiana" loading="lazy"/>
         <p>
           Utiliza el sistema de coordenadas cartesianas para el movimiento, el cual se traduce en tres ejes ortogonales donde el origen puede variar según la máquina. El hot-end se desplaza en estas coordenadas para realizar la impresión. Además cuentan con una cama de impresión cuadrada que se desliza a lo largo un eje, impulsada por un motor paso a paso que transmite el movimiento, para ayudar a la impresión
         </p>
         <a href="https://www.mercadolibre.com.ar/impresora-creality-3d-ender-3-color-black-100v265v-con-tecnologia-de-impresion-fdm/p/MLA12634791?pdp_filters=category:MLA372127#searchVariation=MLA12634791&position=1&search_layout=stack&type=product&tracking_id=8239ed8d-c703-4184-8f85-adf1d8fcdc4f">Ver</a>
       </div>
-      <div>
+      <div class="impresora">
         <h3>Impresora Prusa</h3>
-        <img src="imag/prusa.png" alt="prusa" loading="lazy" class="tecnología-img"/>
+        <img src="imag/prusa.png" alt="prusa" loading="lazy"/>
         <p>
           La impresora 3D Prusa i3 Hephestos es un proyecto libre diseñado y desarrollado por el departamento de Innovación y Robótica de bq. Hephestos toma la base de la Prusa i3 y añade varias mejoras extraídas de otras impresoras como la PowerCode, usuarios de la comunidad RepRap, modificaciones de estas piezas y diseños propios del departamento.
         </p>
         <a href="https://www.mercadolibre.com.ar/impresora-3d-original-prusa-i3-mk3s-color-blackorange-110v220v-con-tecnologia-de-impresion-fdm/p/MLA14713132?pdp_filters=category:MLA372127#searchVariation=MLA14713132&position=1&search_layout=stack&type=product&tracking_id=7023ab26-664e-4501-a7cb-8fe471cb77b7" target="_blank" class="productos-link">Ver</a>
       </div>
-      <div>
-        <h3>Impresoa delta</h3>
-        <img src="imag/delta.png" alt="delta" loading="lazy" class="tecnología-img"/>
+      <div class="impresora">
+        <h3>Impresora delta</h3>
+        <img src="imag/delta.png" alt="delta" loading="lazy"/>
         <p>
           Son máquinas que incluyen autonivelado de serie lo que facilita la puesta en marcha y tienen un acabado profesional. El modelo FLSUN QQ-S viene premontado en un 90% por lo que esta opción resultará aún más sencilla de configurar.
         </p>
         <a href="https://articulo.mercadolibre.com.ar/MLA-663521901-impresora-3d-delta-mini-doble-extrusor-hot-bed-p-armar-_JM?searchVariation=21731042415#searchVariation=21731042415&position=1&search_layout=stack&type=item&tracking_id=57f0cfa1-2da1-4199-a254-0c144be763f1" target="_blank">Ver</a>
       </div>
-      <div>
-        <h3>Impresoa corey xy</h3>
-        <img src="imag/coeryxy.png" alt="coeryxy" loading="lazy" class="tecnología-img"/>
+      <div class="impresora">
+        <h3>Impresora corey xy</h3>
+        <img src="imag/coeryxy.png" alt="coeryxy" loading="lazy"/>
         <p>
           Especialmente diseñada para la produccion a gran escala y la reducción de costos.
           Contiene un espacio de construcción infinito en el eje Z y se distingue por su cama de impresión en forma de cinta transportadora, y también por el pórtico angular por el que se desplaza el cabezal de impresión. La impresión es continua e imprime voladizos sin soportes. 
@@ -70,33 +120,38 @@
         <a href="https://articulo.mercadolibre.com.ar/MLA-1128584536-impresora-3d-creality-cr-30-printmill-tecnologia-fdm-core-xy-_JM?searchVariation=174324959786#searchVariation=174324959786&position=2&search_layout=stack&type=item&tracking_id=f0a8d47e-5619-40cd-91b3-6e0215d70e40" target="_blank" >Ver</a>
       </div>
     </div>
+  </div>
   </section>
 
 <!-- Redes sociales -->
-<div class="socials">
-  <a href="#" target="_blank"
-    ><img 
-    src="https://cdn-icons-png.flaticon.com/512/3670/3670211.png " 
-    class="socicon"
-  /></a>
-  <a href="#" target="_blank"
-    ><img 
-    src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png "
-    alt="Instagram"
-    class="socicon"
-  /></a>
-  <a href="#" target="_blank"
-    ><img
-     src="https://cdn-icons-png.flaticon.com/512/1051/1051258.png"
-     alt="Facebook" 
-     class="socicon">
-    </a>
-    </div>
-
-<!-- Footer section -->
-<footer>
-  <p class="copy">&copy; Copyright 2022</p>
-  </p>
-</footer> 
-</body>
-</html>
+<section class="redes">
+  <div class="redes">
+   <a href="https://twitter.com/" target="twitter">
+     <img src="https://cdn-icons-png.flaticon.com/512/3670/3670211.png "alt="Twitter" class="redes-icon"/>
+   </a>
+   <a href="https://www.instagram.com/" target="Instagram">
+     <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png "alt="Instagram"class="redes-icon"/>
+   </a>
+   <a href="https://es-la.facebook.com/" target="Facebook">
+     <img src="https://cdn-icons-png.flaticon.com/512/1051/1051258.png" alt="Facebook" class="redes-icon">
+   </a>
+     </div>
+ </section>
+ 
+ <!--Whatsapp--> 
+ <section class="whatsapp"> 
+ <div class="whatsapp">
+   <a href="https://web.whatsapp.com/" target="whatsapp">
+     <img src="https://cdn-icons-png.flaticon.com/512/3670/3670051.png"alt="Whatsapp" class="whatsappicon"/>
+   </a>
+ </section>
+ <!-- Footer section -->
+ <footer>
+   <div class="footer">
+   <p class="copy">&copy; Copyright 2022</p>
+   </p>
+   </div>
+ </footer> 
+ <script src="js/script.js"></script>
+ </body>
+ </html>

@@ -1,0 +1,63 @@
+/* Inicio */
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:'Silkscreen' ;
+}
+body{
+    background-color: black;
+    background-image: url(imag/inicio.png);
+    margin-left: 80px;
+    margin-top: 80px;
+    /*Transición*/
+    transition: margin-left 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+
+.inicio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1170px;
+    margin: auto;
+    background-color: black;
+    flex: 2 1 200px;
+  }
+
+  .inicio img {
+    width: 120%;
+    background-color: black;
+    justify-content: center;
+    margin-right: 50px;
+  }
+
+  
+  .bio {
+    width: 500px;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 15px 2px rgb(124, 124, 255);
+    background-color: black;
+  }
+  .bio img{
+    margin: auto;
+    padding: 20px;
+    width: 100%;
+  }
+  .bio h2 {
+    font-size: 20px ;
+  color: white;
+  background-color: black;
+  text-align: center;
+  }
+  
+  .bio p {
+    color: white;
+    background-color: black;
+    text-align: left;
+    align-items: center;
+  }
+  /* Fin inicio */
