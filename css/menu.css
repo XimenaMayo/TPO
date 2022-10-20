@@ -38,15 +38,9 @@
     display: none;
 }
 
-.name__page{
-    padding: 0px;
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
-}
-
-.name__page img{
-    width: 50px;
+.menu__side{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 .options__menu{
@@ -63,7 +57,7 @@
     transition: color 300ms;
 }
 
-/*Transiciòn de color en menu*/
+/*Transición de color en menú*/
 .options__menu a:hover{
     color: orangered;
 }
@@ -98,5 +92,14 @@ a.selected{
     position: absolute;
     top: 10%;
     left: -30px;
+}
+/*Clases para JS*/
+
+.body_move{
+    margin-left: 250px;
+}
+
+.menu__side_move{
+    width: 250px;
 }
 /* Fin menú*/
