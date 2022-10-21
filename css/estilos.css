@@ -432,7 +432,7 @@ Fin menú*/
   }
   Fin whatsapp*/
 
-  /* Footer */
+  /* Footer 
 .footer p {
     background-color: black;
     text-align: center;
@@ -448,7 +448,7 @@ Fin menú*/
 
 .menu__side_move{
     width: 250px;
-}
+}*/
 
 
 @media screen and (max-width: 400px){
@@ -456,7 +456,7 @@ Fin menú*/
         margin-left: 0px;
     }
 
-    .menu__side_move{
+   /* .menu__side_move{
         width: 80px;
         left: -80px;
     }
@@ -477,31 +477,30 @@ Fin menú*/
     .contacto-form-container {
       max-width: 300px;
       display: block;
-    }
-    .titulo h2{
+    }*/
+    .titulo h2 {
       font-size: 20px;
     }
-    .titulo h3{
+    .titulo h3 {
       font-size: 15px;
     }
     
-    .titulo p{
+    .titulo p {
       font-size: 5px;
       text-align: center;
-    
     }
     
     .titulo h4{
-      font-size: 10px; 
+      font-size: 5px; 
     }
 }
 
 @media screen and (max-width: 850px){
-  .body_move{
+  .body_move {
       margin-left: 0px;
   }
 
-  .menu__side_move{
+ /* .menu__side_move{
       width: 80px;
       left: -80px;
   }
@@ -517,7 +516,7 @@ Fin menú*/
   .contacto-form-container {
     max-width: 600px;
     display: block;
-  }
+  }*/
   .titulo h2{
     font-size: 40px;
   }
@@ -526,7 +525,7 @@ Fin menú*/
   }
   
   .titulo p{
-    font-size: 5px;
+    font-size: 12px;
     text-align: center;
   
   }
@@ -540,8 +539,8 @@ Fin menú*/
   .body_move{
       margin-left: 0px;
   }
-
-  .menu__side_move{
+}
+ /* .menu__side_move{
       width: 80px;
       left: -80px;
   }

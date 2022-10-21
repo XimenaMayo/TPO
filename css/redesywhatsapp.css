@@ -33,15 +33,31 @@
   @media screen and (max-width: 400px){
    .redes{
      display: table-row;
-    bottom: 100px;
+    bottom: 20px;
+   }
+   
+   .whatsapp{
+    bottom: 50px;
+   }
+
+   .whatsappicon{
+    width: 20px;
+    height: 20px;
    }
  }
  
  @media screen and (max-width: 850px){
-   
+   .whatsappicon{
+    width: 40px;
+    height: 40px;
+   }
    
  }
  @media screen and (max-width: 1300px){
+  .whatsappicon{
+    display: block;
+    margin-bottom: 5px;
+  }
   
  }
  

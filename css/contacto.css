@@ -86,24 +86,6 @@
         margin-left: 0px;
     }
 
-    .menu__side_move{
-        width: 80px;
-        left: -80px;
-    }
-    .inicio{
-      display: inline-block;
-    }
-    .bio {
-      width: 95%;
-    }
-    .productos-container{
-      display: block;
-      margin: 2px 2px 2px 2px;
-      justify-content: center;
-    }
-    .productos{
-      display:block;
-    }
     .contacto-form-container {
       max-width: 300px;
       display: block;
@@ -143,7 +125,7 @@
   }
   
   .titulo p{
-    font-size: 5px;
+    font-size: 10px;
     text-align: center;
   
   }

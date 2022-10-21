@@ -1,0 +1,30 @@
+.ubicacion iframe {
+    width: 100%;
+    margin: auto;
+}
+
+@media screen and (max-width: 400px){
+   .ubicacion iframe {
+    margin: auto;
+    display: block;
+   }
+  .ubicacion p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  }
+  
+  @media screen and (max-width: 850px){
+    .whatsappicon{
+     width: 40px;
+     height: 40px;
+    }
+    
+  }
+  @media screen and (max-width: 1300px){
+   .whatsappicon{
+     display: block;
+     margin-bottom: 5px;
+   }
+   
+  }
