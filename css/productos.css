@@ -30,3 +30,33 @@
     border:20px solid rgb(124, 124, 255);
   }
   /* Productos (fin) */
+
+  @media screen and (max-width: 400px){
+  
+    .productos-container{
+      display: block;
+      margin: 2px 2px 2px 2px;
+      justify-content: center;
+    }
+    .productos{
+      display:block;
+    }
+    .contacto-form-container {
+      max-width: 300px;
+      display: block;
+    }
+}
+
+@media screen and (max-width: 850px){
+  
+  .productos-container{
+    display: block;
+    margin: 2px 2px 2px 2px;
+    justify-content: center;
+  }  
+}
+@media screen and (max-width: 1300px){
+  .productos{
+    display: block;
+  }
+}

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
 /*Menú*/
 .icon__menu{
     width: 50px;
@@ -103,3 +104,38 @@ a.selected{
     width: 250px;
 }
 /* Fin menú*/
+@media screen and (max-width: 400px){
+    .body_move{
+        margin-left: 0px;
+    }
+
+    .menu__side_move{
+        width: 80px;
+        left: -80px;
+    }
+    .inicio{
+      display: inline-block;
+    }
+}
+
+@media screen and (max-width: 850px){
+  .body_move{
+      margin-left: 0px;
+  }
+
+  .menu__side_move{
+      width: 80px;
+      left: -80px;
+  }
+  
+}
+@media screen and (max-width: 1300px){
+  .body_move{
+      margin-left: 0px;
+  }
+
+  .menu__side_move{
+      width: 80px;
+      left: -80px;
+  }
+}

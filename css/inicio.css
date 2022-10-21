@@ -61,3 +61,33 @@ body{
     align-items: center;
   }
   /* Fin inicio */
+
+  @media screen and (max-width: 400px){
+   .imagen-inicio imag {
+    display: inline;
+    width: 95%;
+    max-width: 200%;
+    margin: auto;
+   margin-top: 100px;
+   }
+   .bio {
+    width: 200%;
+    display:inline;
+    margin: auto;
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 850px){
+  .bio{
+    display: block;
+    width: 200px;
+  }
+  .inicio{
+    display:flex;
+  }
+  
+}
+@media screen and (max-width: 1300px){
+ 
+}
