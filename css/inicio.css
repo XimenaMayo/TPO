@@ -9,7 +9,7 @@
 }
 body{
     background-color: black;
-    background-image: url(imag/inicio.png);
+    /*background-image: url(imag/inicio.png);*/
     margin-left: 80px;
     margin-top: 80px;
     /*Transición*/
@@ -27,8 +27,8 @@ body{
     flex: 2 1 200px;
   }
 
-  .inicio img {
-    width: 120%;
+  .imagen-inicio img {
+    width: 100%;
     background-color: black;
     justify-content: center;
     margin-right: 50px;
@@ -62,30 +62,61 @@ body{
   }
   /* Fin inicio */
 
-  @media screen and (max-width: 400px){
+  @media all and (max-width: 600px){
    .imagen-inicio imag {
-    display: inline;
+    display: inline-block;
     width: 95%;
     max-width: 200%;
     margin: auto;
    margin-top: 100px;
    }
-   .bio {
-    width: 200%;
-    display:inline;
-    margin: auto;
-    margin-top: 100px;
+   .bio{
+    display:inline-flex;
+    flex-direction: row;
+     width: auto;
+    margin: 10px;
   }
-}
 
-@media screen and (max-width: 850px){
-  .bio{
-    display: block;
-    width: 200px;
+  .bio img {
+    margin: auto;
+    display: flex;
+    flex: 5 1 auto;
   }
+  .descripccion-titulo{
+    flex-direction: column;
+    display: inline-flex;
+    flex: 1 1 auto;
+    margin: 5px;
+    padding: 5px;
+    justify-content: center;
+    align-content: center;
+  }
+  .descripccion{
+    display: inline-block;
+    flex: 2 1 auto;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+  }
+  }
+
+@media all and (max-width: 850px){
   .inicio{
-    display:flex;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
   }
+ 
+  .imagen-inicio imag {
+    margin-left: auto;
+    margin-right: auto;
+   }
+    .bio img{
+      width: 50%;
+      margin: auto;
+      align-content: center;
+      justify-content:center;
+    }
   
 }
 @media screen and (max-width: 1300px){

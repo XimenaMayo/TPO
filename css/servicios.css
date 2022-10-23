@@ -34,5 +34,47 @@
   font-size: 15px;
   text-align:left;
   word-spacing: 3px;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bold;
 }
   /* Servicos (fin)*/
+ 
+  @media all and (max-width: 400px){
+  .servicos-aplicaciones{
+    display: inline-block;
+  }
+  .aplicacion{
+    margin: 10px;
+    padding: 5px;
+    border: 3px solid rgb(124, 124, 255) ;
+ 
+  }
+  .aplicacion h3{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+   }
+   .aplicacion p{ 
+    font-size: 7px;
+  }
+ }
+ 
+@media all and (max-width: 850px){
+  .aplicacion{
+    margin:5px;
+    padding: 10px;
+    border: 5px dotted rgb(124, 124, 255) ;
+    
+  }
+   .aplicacion h3{
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 10px;
+   }
+   .aplicacion p{ 
+    font-size: 10px;
+  }
+ }
+ @media all and (max-width: 1300px){
+  
+ } 

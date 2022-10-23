@@ -12,7 +12,7 @@
    
   .impresora img {
     padding: 20px;
-    width: 50%;
+    width: 500px;
     border:20px solid rgb(124, 124, 255);
   }
   
@@ -39,6 +39,34 @@
 
 .impresora p{
   text-align: left;
-  font-size: 15px;
+  font-size: 20px;
 }
 /*Fin tecnología*/
+@media screen and (max-width: 1300px){
+  .tecnologia-impresoras{
+    display: block;
+  }
+ } 
+ 
+ @media screen and (max-width: 850px){
+  .impresora img {
+    padding: 10px;
+    width: 300px;
+    border:10px solid rgb(124, 124, 255);
+  }
+  .impresora p{
+    font-size: 15px;
+  }
+ }
+ @media screen and (max-width: 400px){
+  .impresora img {
+    padding: 20px;
+    width: 150px;
+    border:5px solid rgb(124, 124, 255);
+  }
+  .impresora p{
+    font-size: 10px;
+  }
+ }
+ 
+

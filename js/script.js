@@ -12,9 +12,9 @@ var body = document.getElementById("body");
         side_menu.classList.toggle("menu__side_move");
     }
 
-//Si el ancho de la página es menor a 760px, ocultará el menú al recargar la página
+//Si el ancho de la página es menor a 850px, ocultará el menú al recargar la página
 
-if (window.innerWidth < 760){
+if (window.innerWidth < 850){
 
     body.classList.add("body_move");
     side_menu.classList.add("menu__side_move");
@@ -24,13 +24,13 @@ if (window.innerWidth < 760){
 
 window.addEventListener("resize", function(){
 
-    if (window.innerWidth > 760){
+    if (window.innerWidth > 850){
 
         body.classList.remove("body_move");
         side_menu.classList.remove("menu__side_move");
     }
 
-    if (window.innerWidth < 760){
+    if (window.innerWidth < 850){
 
         body.classList.add("body_move");
         side_menu.classList.add("menu__side_move");
