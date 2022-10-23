@@ -4,6 +4,7 @@
     margin-top: 2.5rem;
     align-items: center;
     margin-bottom: 5px;
+    justify-content: space-around;
     }
 .servicios-tope{
   margin-bottom: 20px;
@@ -39,7 +40,7 @@
 }
   /* Servicos (fin)*/
  
-  @media all and (max-width: 400px){
+  @media all and (max-width: 600px){
   .servicos-aplicaciones{
     display: inline-block;
   }

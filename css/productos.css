@@ -6,22 +6,21 @@
     
   .productos-header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-bottom: 40px;
   }
   
   .productos-container{
   display:flex;
   justify-content: space-evenly;
-   grid-row-start: 1;
-   grid-row-end: 4;
-  
+   flex: 3 2 1 auto;
+   flex-flow: row wrap;  
   }
   
   .productos-header img {
     padding: 20px;
     align-items: center;
-    
+
   }
 
   .productos-container img {
@@ -31,32 +30,35 @@
   }
   /* Productos (fin) */
 
-  @media screen and (max-width: 400px){
+  @media all and (max-width: 600px){
   
     .productos-container{
-      display: block;
+      display: flex;
       margin: 2px 2px 2px 2px;
-      justify-content: center;
+      justify-content: space-around;
     }
     .productos{
       display:block;
     }
-    .contacto-form-container {
-      max-width: 300px;
-      display: block;
+     .productos-header{
+      display: flex;
+      justify-content: space-around;
+     }
+    .productos-header img {
+      width: 50%;
     }
 }
 
-@media screen and (max-width: 850px){
+@media all and (max-width: 850px){
   
   .productos-container{
-    display: block;
+    display: flex;
     margin: 2px 2px 2px 2px;
     justify-content: center;
   }  
 }
-@media screen and (max-width: 1300px){
+@media all and (max-width: 1300px){
   .productos{
-    display: block;
+    display:block;
   }
 }
