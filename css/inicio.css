@@ -43,9 +43,9 @@ body{
     background-color: black;
   }
   .bio img{
-    margin: auto;
-    padding: 20px;
-    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    width: 80%;
   }
   .bio h2 {
     font-size: 20px ;
@@ -75,21 +75,21 @@ body{
     flex-direction: row;
      width: auto;
     margin: 10px;
+    justify-content: space-around;
   }
 
-  .bio img {
+  .logo {
     margin: auto;
-    display: flex;
-    flex: 5 1 auto;
+    display: inline-block;
+    width: 100px;
   }
   .descripccion-titulo{
     flex-direction: column;
     display: inline-flex;
     flex: 1 1 auto;
-    margin: 5px;
-    padding: 5px;
     justify-content: center;
     align-content: center;
+    padding: 5px;
   }
   .descripccion{
     display: inline-block;
@@ -97,6 +97,7 @@ body{
     margin: auto;
     justify-content: center;
     align-content: center;
+    padding: 5px;
   }
   }
 
@@ -111,8 +112,8 @@ body{
     margin-left: auto;
     margin-right: auto;
    }
-    .bio img{
-      width: 50%;
+    .logo{
+      width: 300px;
       margin: auto;
       align-content: center;
       justify-content:center;
