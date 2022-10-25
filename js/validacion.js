@@ -1,6 +1,7 @@
 const formulario = document.getElementById('formulario');
 const inputs = document.querySelectorAll('#formulario input');
 
+
 const expresiones = {
 	nombre: /^[a-zA-ZÀ-ÿ\s]{5,40}$/, // Minimo 5 caracteres maximo 40
 	correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
@@ -23,7 +24,7 @@ const validarFormulario = (e) => {
 			validarCampo(expresiones.correo, e.target, 'correo');
 		break;
 		case "mensaje":
-			validarCampo(expresiones.telefono, e.target, 'mensaje');
+			validarCampo(expresiones.mensaje, e.target, 'mensaje');
 		break;
 	}
 }
@@ -67,16 +68,8 @@ formulario.addEventListener('submit', (e) => {
 			icono.classList.remove('formulario__grupo-correcto');
 		});
 	} else {
-		document.getElementById('formulario__mensaje').classList.add('formulario__mensaje-activo');
+		document.getElementById('formulario__mensaje').classList.add('formulario__mensaje-activo');setTimeout(() => {
+			document.getElementById('formulario__mensaje').classList.remove('formulario__mensaje-activo');
+		}, 3000);
 	}
-});
-
-formulario.name.obj.addEventListener("input", (e) => {
-	set_ui(is_a_valid_name.test(e.target.value), formulario.name,  "Ingrese su nombre! (solo letras)");
-});
-formulario.email.obj.addEventListener("input", (e) => {
-	set_ui(is_valid_email.test(e.target.value), formulario.email, "Ingrese un mail valido!");
-});
-formulario.message.obj.addEventListener("input", (e) => {
-	set_ui(is_valid_message.test(e.target.value), formulario.message,  "Minimo 10 caracteres!");
 });

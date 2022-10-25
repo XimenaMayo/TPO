@@ -23,16 +23,17 @@
     font-weight: bold; 
     font-size: 20px;
    }
+
    .formulario {
     width: 500px;
-      height:550px;
+      height:370px;
       margin:auto;
       padding: 20px ;
       border-radius: 5px;
       box-shadow: 0 3px 10px  rgb(124, 124, 255);
   
   }
-  
+
   .formulario__label {
       line-height: 45px;
       font-size: 20px;
@@ -63,6 +64,8 @@
     font-size: 12px;
     margin-bottom: 0;
     display: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
   }
   
   .formulario__input-error-activo {
@@ -79,9 +82,9 @@
   }
   
   .formulario__mensaje {
-    height: 45px;
+    height: 20px;
     line-height: 45px;
-    background: #F66060;
+    color:orangered;
     padding: 0 15px;
     border-radius: 3px;
     display: none;
@@ -93,6 +96,9 @@
   
   .formulario__mensaje p {
     margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 15px;
   }
   
   .formulario__grupo-btn-enviar {
@@ -121,8 +127,11 @@
   
   .formulario__mensaje-exito {
     font-size: 14px;
-    color:  rgb(124, 124, 255);
+    color: black;
+    background-color:  rgb(124, 124, 255);
     display: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
   }
   
   .formulario__mensaje-exito-activo {
