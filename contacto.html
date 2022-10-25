@@ -89,55 +89,48 @@
       <p>Realizamos productos presonalizados, contáctenos mediante el formulario.</p>
       </div>
       </div>
-
-      <div class="contacto-form-container">
-        <div class="contacto-form">
-          <form action="https://formspree.io/f/xyylnggw" method="POST">
-            <div class="form-control">
-              <label for="name">Nombre</label>
-              <input
-                type="text"
-                id="name"
-                name="sender-name"
-                placeholder="Escriba su nombre completo"
-                class="input-field"
-                required
-              />
+      <center>     
+        <!--Formulario-->
+      <main>
+        <form action="" class="formulario" id="formulario">
+    
+          <!-- Nombre -->
+          <div class="formulario__grupo" id="grupo__nombre">
+            <label for="nombre" class="formulario__label">Nombre</label>
+            <div class="formulario__grupo-input">
+              <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Escriba su nombre completo">
+              <i class="formulario__validacion-estado fas fa-times-circle"></i>
             </div>
-            <div class="form-control">
-              <label for="email">Email</label>
-              <input
-                type="email"
-                id="email"
-                name="sender-email"
-                placeholder="Escriba su email de contacto"
-                class="input-field"
-                required
-              />
+            <p class="formulario__input-error">El mínimo de caracteres es de 5 y solo pueden ser letras y espacios.</p>
+          </div>
+    
+          <!--Correo Electronico -->
+          <div class="formulario__grupo" id="grupo__correo">
+            <label for="correo" class="formulario__label">Correo Electrónico</label>
+            <div class="formulario__grupo-input">
+              <input type="email" class="formulario__input" name="correo" id="correo" placeholder="Escriba su email de contacto">
+              <i class="formulario__validacion-estado fas fa-times-circle"></i>
             </div>
-            <div class="form-control">
-              <label for="message">Mensaje</label>
-              <textarea
-                id="message"
-                cols="60"
-                rows="7"
-                placeholder="Escriba su consulta"
-                name="message"
-                class="input-field"
-                required
-              ></textarea>
+            <p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
+          </div>
+    
+                <!--Mensaje-->
+                <div class="formulario__grupo" id="grupo__mensaje">
+            <label for="mensaje" class="formulario__label">Mensaje</label>
+            <div class="formulario__grupo-input">
+              <textarea id="message" cols="60" rows="7" placeholder="Escriba su consulta" name="message" class="formulario__input" required></textarea>
+              <i class="formulario__validacion-estado fas fa-times-circle"></i>
             </div>
-            <input
-              type="submit"
-              value="Enviar"
-              id="submit-btn"
-              class="submit-btn"
-            />
-          </form>
-        </div>
-      </div>
-    </section>
-     </center>
+            <p class="formulario__input-error">El mesnaje debe tenr como mínimo 10 caracteres.</p>
+          </div>
+               <!--Botón--> 
+          <div class="formulario__grupo formulario__grupo-btn-enviar">
+            <button type="submit" class="formulario__btn">Enviar</button>
+            <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Muchas gracias nos pondremos en contacto a la brevedad!</p>
+          </div>
+        </form>
+      </main>
+      
 
     <!-- Redes sociales -->
 <section class="redes">
@@ -166,5 +159,6 @@
    </p>
  </footer> 
  <script src="js/script.js"></script>
+ <script src="js/validacion.js"></script>
  </body>
  </html>
