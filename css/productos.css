@@ -18,6 +18,7 @@
   }
   .producto-precio{
     display: inline-block;
+    padding: 5px;
   }
 
   .productos-header img {
