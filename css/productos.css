@@ -11,12 +11,15 @@
   }
   
   .productos-container{
-  display:flex;
-  justify-content: space-evenly;
-   flex: 3 2 1 auto;
-   flex-flow: row wrap;  
+    display:flex;
+    justify-content: space-evenly;
+     flex: 3 2 1 auto;
+     flex-flow: row wrap;  
   }
-  
+  .producto-precio{
+    display: inline-block;
+  }
+
   .productos-header img {
     padding: 20px;
     align-items: center;
